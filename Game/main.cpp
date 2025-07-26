@@ -1,9 +1,10 @@
 #include <OGL3D/Game/OGame.h>
+#include "CubeGame.h"  // Included the new game class
 #include <iostream>
 
 int main() {
     try {
-        OGame game;
+        CubeGame game;  // Use our CubeGame implementation
         game.run();
     }
     catch (const std::exception& e) {
